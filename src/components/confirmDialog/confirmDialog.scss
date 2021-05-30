@@ -1,0 +1,19 @@
+@import "src/statics/constants";
+
+.MuiDialogTitle-root {
+  background-color: $confirmTitleColor;
+  color: $confirmTitleFontColor;
+}
+
+.MuiDialogActions-root {
+  justify-content: space-around !important;
+}
+
+.MuiButton-containedSecondary, .MuiButton-contained {
+  background-color: $confirmOptionColor !important;
+  color: $confirmOptionTextColor !important;
+
+  &:hover {
+    background-color: $color !important;
+  }
+}

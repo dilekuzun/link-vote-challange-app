@@ -1,0 +1,21 @@
+@import "src/statics/constants";
+
+.err-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.err-wrapper-num-span {
+  color: $errColor;
+  font-size: 25px;
+  border: 1px solid $errColor;
+  border-radius: 3rem;
+  margin: 2rem;
+  padding: 0.5rem;
+}
+
+.err-wrapper-span {
+
+}

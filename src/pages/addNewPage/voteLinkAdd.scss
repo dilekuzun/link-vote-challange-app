@@ -1,0 +1,43 @@
+@import "src/statics/constants";
+
+.app-votelink-add-header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-votelink-add {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.left-icon {
+  width: 0.7rem;
+  margin-right: 1rem;
+}
+
+.back-btn {
+  border: none;
+  background-color: transparent;
+}
+
+.add-btn {
+  background-color: $btnBgColor;
+  color: $addBtnFontColor;
+  border-radius: 25px;
+}
+
+.new-title {
+  font-size: 25px;
+}
+.app-votelink-add > div {
+  margin: 1rem;
+}
+
+.app-votelink-add > div > span {
+  display: block;
+}

@@ -1,0 +1,30 @@
+@import "src/statics/constants";
+
+.pagination {
+  display: flex;
+}
+
+.page-item {
+  padding: 0.5rem;
+
+  &:hover {
+    border: 2px solid $color;
+  }
+}
+
+.page-item--active {
+  padding: 0.5rem;
+  border: 2px solid $color;
+  background-color: $pointsColor;
+}
+
+.previous-icon, .next-icon {
+  width: 1rem;
+  margin-right: 0.3rem;
+  margin-top: 0.5rem;
+
+  &:hover {
+    border: 3px solid $color;
+    border-radius: 15px;
+  }
+}

@@ -1,0 +1,27 @@
+@import "./statics/constants";
+
+.app {
+  font-size: 12px;
+  background-color: $bgColor;
+
+}
+
+.app-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: calc(1rem + 2vmin);
+}
+
+.body {
+  margin-top: 2rem;
+}
+
+.footer {
+  margin-bottom: 1rem;
+}
+
+.app-logo {
+  width: 40%;
+}

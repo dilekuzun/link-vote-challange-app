@@ -1,0 +1,115 @@
+@import "../../statics/constants";
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+  padding-right: 1rem;
+
+  &:hover {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  }
+
+  &:hover .delete-vote-btn{
+    display: block;
+  }
+}
+
+.delete-vote {
+  align-self: flex-end;
+}
+
+.delete-vote-btn {
+  display: none;
+  position: absolute;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 1rem;
+  border: none;
+  background-color: transparent;
+  margin-left: 2.4rem;
+  margin-top: -1.5rem;
+}
+
+.item-point {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 0.05rem black solid;
+  background-color: $pointsColor;
+  margin: 1rem;
+  padding: 0.5rem;
+  border-radius: 7px;
+}
+
+.item-side {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 50%;
+  height: 5rem;
+}
+
+.item-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-info-point {
+  font-size: 25px;
+}
+
+.item-info-name {
+  font-size: 15px;
+}
+
+.item-info-url {
+
+}
+
+.item-vote-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+small {
+  border: 2px solid $color;
+  border-radius: 7px;
+  padding: 5px 12px;
+  color: $color;
+}
+
+.delete-confirm-post-name {
+  display: block;
+  margin-left: 4rem;
+  font-size: 20px;
+}
+
+.up-vote-btn, .down-vote-btn {
+  border: none;
+  border-color: transparent;
+  background-color: transparent;
+  color: $color;
+  font-size: 0.5rem;
+  white-space: nowrap;
+
+  &:hover {
+    background-color: $hoverColor;
+  }
+}
+
+.up-icon, .down-icon{
+  width: 0.5rem;
+  margin-right: 0.3rem;
+}
+
+
+.minus-icon {
+  width: 1rem;
+  margin-right: 0.3rem;
+  background-color: white;
+}

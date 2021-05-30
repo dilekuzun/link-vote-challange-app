@@ -5,7 +5,7 @@ Oylama linki ekleme ve listeleme sayfaları mevcuttur.
 Eklenen link için oylama sistemi mevcuttur.
 Listeden istenilen oy linki silinebilir veya sırası bulunan seçenekler ile değiştirilebilir.
 Başarılı ve başarısız işlemler için uyarılar gösterilmiştir.
-MAterial UI kütüphanesi kullanılmıştır.
+Material UI kütüphanesi kullanılmıştır.
 
 # Getting Started with Create React App
 

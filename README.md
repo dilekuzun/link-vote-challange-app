@@ -1,3 +1,12 @@
+# Front-End Developer Çalışması - SPA
+
+Local Storage 'da data tutulmuştur.
+Oylama linki ekleme ve listeleme sayfaları mevcuttur.
+Eklenen link için oylama sistemi mevcuttur.
+Listeden istenilen oy linki silinebilir veya sırası bulunan seçenekler ile değiştirilebilir.
+Başarılı ve başarısız işlemler için uyarılar gösterilmiştir.
+MAterial UI kütüphanesi kullanılmıştır.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
